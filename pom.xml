@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>maoyan-parent</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>maoyan-user-parent</artifactId>
+    <packaging>pom</packaging>
+    <name>MaoyanMovie-user</name>
+    <description>用户服务 - 父聚合</description>
+
+    <modules>
+        <module>api</module>
+        <module>infrastructure</module>
+        <module>bizserver</module>
+        <module>apiserver</module>
+    </modules>
+</project>
