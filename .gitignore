@@ -1,0 +1,30 @@
+# Maven
+**/target/
+*.class
+*.jar
+
+# Node
+**/node_modules/
+**/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Local environment
+.env
+.env.*
+!.env.example
+application-local.yml
+bootstrap-local.yml
+
+# Logs and runtime files
+*.log
+hs_err_pid*.log
+replay_pid*.log
+.runtime/
+
+# Frontend caches
+.npm/
+**/.vite/
